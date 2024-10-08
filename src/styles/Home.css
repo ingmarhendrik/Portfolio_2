@@ -1,0 +1,29 @@
+.introduction {
+    padding-left: 7em;
+    padding-top: 5rem;
+}
+
+.introduction p {
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.introduction nav {
+    display: flex;
+    gap: 1.5em;
+    margin-top: 2em;
+}
+
+.introduction nav a img {
+    width: 36px;
+    height: 36px;
+}
+
+.introduction nav a {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.introduction nav a:hover {
+    transform: scale(1.2)   ;
+}

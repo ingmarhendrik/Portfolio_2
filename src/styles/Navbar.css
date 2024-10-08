@@ -1,0 +1,58 @@
+.header-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 20px 0;
+    z-index: 99;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-container.sticky {
+    position: fixed;
+    box-shadow: 0 5px 16px rgba(0, 0, 0, 0.1);
+    padding: 8px 0;
+    backdrop-filter: blur(10px);
+    animation: slideDown 0.35s ease-out;
+}
+
+.header-container.sticky img {
+    width: 60%;
+}
+
+@keyframes slideDown {
+    from {
+      transform: translateY(-100%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+
+.logo img {
+    width: 70%;
+    height: auto;
+    margin-left: 6.5em;
+    cursor: pointer;
+}
+
+.nav-bar {
+    margin-right: 7em;
+    display: flex;
+}
+
+.nav-bar a {
+    margin-right: 2em;
+    color: black;
+    transition: 0.3s ease;
+}
+
+.nav-bar a:hover {
+    color: var(--primary-color);
+    text-decoration: none;
+}
