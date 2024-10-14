@@ -1,0 +1,26 @@
+#about {
+    margin-left: 7rem;
+    margin-top: 10rem;
+    padding-top: 5rem;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    line-height: 1.5em;
+    justify-content: space-between;
+    margin-top: -1em;
+}
+
+.about-container p {
+    width: 50%;
+}
+
+.about-container img {
+    width: 20%;
+    height: auto;
+    max-width: 15rem;
+    margin-right: 7rem;
+}

@@ -47,8 +47,9 @@
 }
 
 .nav-bar a {
-    margin-right: 2em;
-    color: black;
+    margin-right: 3.5em;
+    font-size: 1em;
+    color: white;
     transition: 0.3s ease;
 }
 

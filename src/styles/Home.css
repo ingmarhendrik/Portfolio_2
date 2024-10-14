@@ -1,22 +1,30 @@
+#home {
+    display: flex;
+    align-items: center;
+}
+
 .introduction {
-    padding-left: 7em;
-    padding-top: 5rem;
+    padding-top: 7.5rem;
+    margin-left: 7rem;
 }
 
 .introduction p {
     font-size: 3em;
     font-weight: 700;
+    color: white;
+    line-height: 1.4em;
 }
 
 .introduction nav {
     display: flex;
     gap: 1.5em;
-    margin-top: 2em;
+    text-align: center;
+    margin-top: -1em;
 }
 
 .introduction nav a img {
-    width: 36px;
-    height: 36px;
+    width: 30px;
+    height: 30px;
 }
 
 .introduction nav a {
@@ -26,4 +34,9 @@
 
 .introduction nav a:hover {
     transform: scale(1.2)   ;
+}
+
+.profile-image img {
+    max-width: 25%;
+    height: auto;
 }
