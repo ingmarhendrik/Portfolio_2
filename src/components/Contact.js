@@ -1,6 +1,5 @@
 import React, { useRef } from "react";
 import emailjs from '@emailjs/browser';
-import ContactImage from '../images/contact.png';
 import '../styles/Contact.css';
 
 export const Contact = () => {
@@ -12,35 +11,35 @@ export const Contact = () => {
         e.preventDefault();
         emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, PUBLIC_KEY)
           .then((result) => {
-            alert('Message Sent Successfully')
+            alert('Message Sent Successfully');
+            e.target.reset();
           }, (error) => {
-            console.log(error.text);
-            alert('Something went wrong!')
+            console.error(error.text);
+            alert('Something went wrong!');
           });
-        e.target.reset()
-      };
+    };
+
     return (
         <section id="contact">
-            <form class="formContainer">
-                    <h2>Send me a message!</h2>
-                    <div className="form">
-                        <div class="formElement">
-                            <input type="text" id="from_name" name="from_name" placeholder="Your Name" required />
-                        </div>
-
-                        <div class="formElement">
-                            <input type="email" id="from_email" name="from_email" placeholder="Your email" required />
-                        </div>
-
-                        <div class="formElement">
-                            <textarea name="message" rows="7" cols="30" placeholder="Your message" required />
-                        </div>
-                        <button type='submit' className='formButton'>Submit</button>
+            <form className="formContainer" onSubmit={handleOnSubmit}>
+                <h2>Send me a message!</h2>
+                <div className="form">
+                    <div className="formElement">
+                        <input type="text" id="from_name" name="from_name" placeholder="Your Name" required />
                     </div>
+
+                    <div className="formElement">
+                        <input type="email" id="from_email" name="from_email" placeholder="Your email" required />
+                    </div>
+
+                    <div className="formElement">
+                        <textarea name="message" placeholder="Your message" required />
+                    </div>
+                    <button type='submit' className='formButton'>Submit</button>
+                </div>
             </form>
         </section>
-    )
+    );
 };
 
 export default Contact;
-
