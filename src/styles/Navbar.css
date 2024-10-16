@@ -57,3 +57,10 @@
     color: var(--primary-color);
     text-decoration: none;
 }
+
+
+@media (max-width: 449px) {
+    .header {
+        display: none;
+    }
+}
