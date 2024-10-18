@@ -3,6 +3,7 @@
   }
 
 #contact {
+    margin-top: 10rem;
     padding-top: 10rem;
     padding-bottom: 10rem;
     display: flex;
@@ -52,4 +53,10 @@
 .formContainer button:hover {
     background: #3324be;
     transform: scale(1.1);
+}
+
+@media (max-width: 480px) {
+    #contact {
+        padding: 1em;
+    }
 }

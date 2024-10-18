@@ -40,3 +40,70 @@
 .about-image img:hover {
     transform: scale(1.25);
 }
+
+/* Example Device: Samsung Galaxy S10 */
+/* Dimensions: 360 x 760 pixels */
+/* iPhone SE*/
+/* Dimensions: 375 x 667 pixels */
+@media (max-width: 480px) {
+    #about {
+        margin-left: 0;
+        padding: 1em;
+        margin: 0 auto;
+    }
+    
+    .about-container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        flex-wrap: wrap;
+        line-height: 1.5em;
+        border: 5px solid var(--primary-color);
+        background: rgb(15, 47, 95);
+        border-radius: 1%;
+        padding: 1.25em;
+    }
+    
+    .about-text {
+        flex-basis: 0;
+    }
+
+    .about-text p {
+        font-size: 0.8em;
+    }
+
+
+    .about-image {
+        width: 200px;
+        height: 200px;
+        cursor: none;
+        margin-top: 1em;
+    }
+    
+    .about-image img {
+        transition: none;
+    }
+    
+    .about-image img:hover {
+        transform: none;
+    }
+}
+
+@media (max-width: 1023px) {
+
+}
+
+@media (max-width: 1279px) {
+
+}
+
+
+
+@media (min-width: 1500px) {
+    
+}
+
+@media (min-width: 1900px) {
+
+
+}

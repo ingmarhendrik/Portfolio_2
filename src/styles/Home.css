@@ -9,7 +9,7 @@
 }
 
 .introduction p {
-    font-size: 3em;
+    font-size: 3.5em;
     font-weight: 700;
     color: white;
     line-height: 1.4em;
@@ -36,27 +36,87 @@
     transform: scale(1.2)   ;
 }
 
-/* Example Device: Samsung Galaxy S10 */
-/* Dimensions: 360 x 760 pixels */
-/* iPhone SE*/
-/* Dimensions: 375 x 667 pixels */
-@media (max-width: 449px) {
+@media (max-width: 480px) {
+
     #home {
+        display: flex;
         flex-direction: column;
-        align-items: center;
+        padding-bottom: 10rem;
     }
 
     .introduction {
-        margin-left: 0;
         text-align: center;
+        margin-left: 0 !important;
     }
 
     .introduction p {
-        font-size: 2em;
+        font-size: 2em !important;
     }
 
     nav {
         justify-content: center;
     }
+}
+
+@media (max-width: 1023px) {
+    .introduction {
+        padding-top: 4.5rem;
+        margin-left: 5em;
+    }
+
+    .introduction p {
+        font-size: 2.2em;
+    }
+
+    .introduction nav {
+        gap: 1.5em;
+    }
+
+    .introduction nav a img {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+@media (max-width: 1279px) {
+    .introduction {
+        padding-top: 6rem;
+        margin-left: 5em;
+    }
+
+    .introduction p {
+        font-size: 2.75em;
+    }
+
+    .introduction nav {
+        gap: 1.75em;
+    }
+}
+
+
+
+@media (min-width: 1500px) {
+
+    .introduction {
+        padding-top: 11rem;
+    }
+
+    .introduction p {
+        font-size: 4.5em;
+    }
+
+    .introduction nav {
+        gap: 3em;
+    }
+
+    .introduction nav a img {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media (min-width: 1900px) {
+
+
 }
 
