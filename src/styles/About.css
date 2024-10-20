@@ -11,12 +11,16 @@
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    line-height: 1.5em;
     gap: 18%;
 }
 
 .about-text {
     flex-basis: 42%;
+}
+
+.about-text p {
+    font-size: 1.1em;
+    line-height: 1.4em;
 }
 
 .about-image {
@@ -41,10 +45,6 @@
     transform: scale(1.25);
 }
 
-/* Example Device: Samsung Galaxy S10 */
-/* Dimensions: 360 x 760 pixels */
-/* iPhone SE*/
-/* Dimensions: 375 x 667 pixels */
 @media (max-width: 480px) {
     #about {
         margin-left: 0;
@@ -57,7 +57,6 @@
         flex-direction: column;
         text-align: center;
         flex-wrap: wrap;
-        line-height: 1.5em;
         border: 5px solid var(--primary-color);
         background: rgb(15, 47, 95);
         border-radius: 1%;
@@ -66,10 +65,6 @@
     
     .about-text {
         flex-basis: 0;
-    }
-
-    .about-text p {
-        font-size: 0.8em;
     }
 
 
@@ -90,20 +85,67 @@
 }
 
 @media (max-width: 1023px) {
+    
 
 }
 
 @media (max-width: 1279px) {
 
+    #about {
+        padding-top: 8rem !important;
+    }
+    #about {
+        margin-left: 5rem;
+        padding-top: 10rem;
+    }
+
+    .about-text h1 {
+        font-size: 1.5em;
+    }
+
+    .about-text p {
+        line-height: 1.4em;
+        font-size: 1em;
+    }
+    
 }
 
 
 
 @media (min-width: 1500px) {
+
+    #about {
+        padding-top: 15rem;
+    }
     
+    .about-container {
+        gap: 10%;
+    }
+    
+    .about-text {
+        flex-basis: 50%;
+    }
+    
+    .about-text p {
+        font-size: 1.8em;
+        line-height: 1.35em;
+    }
+
+    .about-text h1 {
+        font-size: 2.75em;
+    }
+    
+    .about-image {
+        width: 330px;
+        height: 330px;
+    }
 }
 
 @media (min-width: 1900px) {
 
+    #about {
+        margin-left: 7rem;
+        padding-top: 20rem;
+    }
 
 }

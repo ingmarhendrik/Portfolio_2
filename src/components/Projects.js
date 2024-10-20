@@ -2,10 +2,10 @@ import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/effect-cards';
+import 'swiper/css/navigation';
 import '../styles/Projects.css';
-import { EffectCards } from 'swiper/modules';
+import { EffectCards, Navigation } from 'swiper/modules';
 import cSharpImage from '../images/c_sharp.png';
-import dockerImage from '../images/docker.png';
 import dotNetImage from '../images/net-logo.png';
 import reactImage from '../images/react.png';
 import typescriptImage from '../images/typescript.png';
@@ -22,7 +22,8 @@ const Projects = () => {
             <Swiper
                 effect={'cards'}
                 grabCursor={true}
-                modules={[EffectCards]}
+                modules={[EffectCards, Navigation]}
+                navigation={true}
                 className="swiper-projects"
                 breakpoints={{
                     640: { width: 600, height: 400 },
@@ -57,8 +58,7 @@ const Projects = () => {
                     <div className='projects-container'>
                         <div className='project-description'>
                             <h3>DESCRIPTION</h3>
-                            <p>A school group project still in development: A mobile-optimized game key reselling website.
-                            The backend runs in a Docker container with an ASP.NET Core Web API for user authentication and key management, built with C# on .NET 8. The frontend, developed in TypeScript and React, provides a responsive mobile experience.</p>
+                            <p>A school group project still in development: A mobile-optimized game key reselling website. The backend runs in a Docker container with an ASP.NET Core Web API for user authentication and key management, built with C# on .NET 8. The frontend, developed in TypeScript and React, provides a responsive mobile experience.</p>
                         </div>
                         <div className='project-technologies'>
                             <h3>TECHNOLOGIES</h3>

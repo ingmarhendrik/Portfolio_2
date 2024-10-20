@@ -147,7 +147,7 @@
     }
     
     .nav-bar a {
-        margin-right: 2em;
+        margin-right: 2.5em; /*Changed 1024px*/
         font-size: 1em;
     }
 
