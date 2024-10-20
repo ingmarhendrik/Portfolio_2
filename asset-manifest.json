@@ -1,13 +1,12 @@
 {
   "files": {
-    "main.css": "/Portfolio_2/static/css/main.fd3d5356.css",
-    "main.js": "/Portfolio_2/static/js/main.72ba7780.js",
+    "main.css": "/Portfolio_2/static/css/main.b5db7984.css",
+    "main.js": "/Portfolio_2/static/js/main.d6fa4c58.js",
     "static/media/about.jpg": "/Portfolio_2/static/media/about.97eb0c17de95a99ed7fe.jpg",
     "static/media/jira.png": "/Portfolio_2/static/media/jira.58d0e331ee5195c3750f.png",
     "static/media/c_sharp.png": "/Portfolio_2/static/media/c_sharp.766c48210078f0dd2fa1.png",
     "static/media/gitlab.png": "/Portfolio_2/static/media/gitlab.817190c50288f4918d6d.png",
     "static/media/react.png": "/Portfolio_2/static/media/react.02d98b5ae99a48844cb2.png",
-    "static/media/docker.png": "/Portfolio_2/static/media/docker.c1f953a3ead577c05d04.png",
     "static/media/html.png": "/Portfolio_2/static/media/html.6e930594286d8afe4c79.png",
     "static/media/css.png": "/Portfolio_2/static/media/css.463e319bad8e0edf1ef7.png",
     "static/media/typescript.png": "/Portfolio_2/static/media/typescript.af108db04a54d784da9b.png",
@@ -16,11 +15,11 @@
     "static/media/github.svg": "/Portfolio_2/static/media/github.0652b00224e72b812ca25bfe7b432acd.svg",
     "static/media/linkedin.svg": "/Portfolio_2/static/media/linkedin.826d5f3a353fae798ff8d2ff33b97dd8.svg",
     "static/media/facebook.svg": "/Portfolio_2/static/media/facebook.83840d4a710712fed58733429f57dc33.svg",
-    "main.fd3d5356.css.map": "/Portfolio_2/static/css/main.fd3d5356.css.map",
-    "main.72ba7780.js.map": "/Portfolio_2/static/js/main.72ba7780.js.map"
+    "main.b5db7984.css.map": "/Portfolio_2/static/css/main.b5db7984.css.map",
+    "main.d6fa4c58.js.map": "/Portfolio_2/static/js/main.d6fa4c58.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd3d5356.css",
-    "static/js/main.72ba7780.js"
+    "static/css/main.b5db7984.css",
+    "static/js/main.d6fa4c58.js"
   ]
 }
