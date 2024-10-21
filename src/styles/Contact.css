@@ -66,57 +66,33 @@
     }
 
     .formContainer {
-        width: 600px;
-        padding: 3em;
-        border-width: 7px;
+        width: 500px;
+        padding: 2em;
+        border-width: 6px;
     }
 
     .formContainer h2 {
-        font-size: 2rem;
+        font-size: 1.75rem;
     }
 
     .formContainer input, 
     .formContainer textarea {
-        font-size: 1.2rem;
-        padding: 20px;
+        font-size: 1.1rem;
+        padding: 15px;
     }
 
     .formContainer textarea {
-        height: 150px;
+        height: 130px;
     }
 
     .formContainer button {
-        width: 155px;
-        height: 50px;
-        font-size: 1.1rem;
+        width: 140px;
+        height: 45px;
+        font-size: 1rem;
     }
 
 }
 
 @media (min-width: 1900px) {
 
-    .formContainer {
-        width: 700px;
-        padding: 3.5em;
-    }
-
-    .formContainer h2 {
-        font-size: 2.3rem;
-    }
-
-    .formContainer input, 
-    .formContainer textarea {
-        font-size: 1.5rem;
-        padding: 30px;
-    }
-
-    .formContainer textarea {
-        height: 175px;
-    }
-
-    .formContainer button {
-        width: 175px;
-        height: 60px;
-        font-size: 1.35rem;
-    }
 }
